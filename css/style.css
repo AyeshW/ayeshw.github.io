@@ -208,7 +208,7 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(255, 255, 255, 0.3);
+          color: rgba(7, 7, 7, 0.3);
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
@@ -380,8 +380,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 10px;
+  padding-bottom: 10px;
   clear: both;
   width: 100%;
   display: block; }
@@ -394,8 +394,8 @@ body.offcanvas {
     .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
-      padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-top: 10px;
+      padding-bottom: 7em; } }
 
 .author-img {
   background-size: cover;
@@ -648,6 +648,12 @@ body.offcanvas {
     border-bottom: 2px solid #2fa499; }
   .services.color-6 {
     border-bottom: 2px solid #4054b2; }
+  .services.color-7 {
+    border-bottom: 2px solid #8240b5; }
+  .services.color-8 {
+    border-bottom: 2px solid #2dce75; }
+  .services.color-9 {
+    border-bottom: 2px solid #cf8d2a; }
 
 .services {
   margin-bottom: 80px;
@@ -727,6 +733,24 @@ body.offcanvas {
       border-color: transparent transparent #4054b2 transparent; }
     .services.color-6 .icon:after {
       border-color: #4054b2 transparent transparent transparent; }
+  .services.color-7 .icon {
+    background: #8240b5; }
+    .services.color-7 .icon:before {
+      border-color: transparent transparent #8240b5 transparent; }
+    .services.color-7 .icon:after {
+      border-color: #8240b5 transparent transparent transparent; }
+  .services.color-8 .icon {
+    background: #2dce75; }
+    .services.color-8 .icon:before {
+      border-color: transparent transparent #2dce75 transparent; }
+    .services.color-8 .icon:after {
+      border-color: #2dce75 transparent transparent transparent; }
+  .services.color-9 .icon {
+    background: #cf8d2a; }
+    .services.color-9 .icon:before {
+      border-color: transparent transparent #cf8d2a transparent; }
+    .services.color-9 .icon:after {
+      border-color: #cf8d2a transparent transparent transparent; }
 
 .progress-wrap h3 {
   font-size: 16px;
